@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+       var a=prompt("if you want to convert f to c press c or you need to press f");
+        var b=prompt("enter another no");
+        console.log(a);
+        console.log(b);
+         
+        function temp(a,b){
+            if(a=='c'){
+                t=(b - 32) * 5/9;
+            console.log("the value converted to cel "+t);
+            
+            }
+            else if(a=='f'){
+                t=(b * 9/5) + 32;
+                console.log("the value is converted into f "+t);
+            }
+            else{
+                console.log("enter a valid no.");
+            }
+
+        }
+        temp(a,b)
+    </script>
+</body>
+</html>

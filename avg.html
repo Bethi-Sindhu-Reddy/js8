@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var len = +prompt("Enter Length of the string"); 
+var a = []; 
+var sum = 0; 
+for (i = 0; i < len; i++) { 
+    a[i] = +prompt(""); 
+}
+console.log("Given Array is " + a);
+function avg(a) { 
+    for (i = 0; i < len; i++) { 
+        sum = sum + a[i]; 
+    }
+    var avg = sum / len; 
+    console.log("avg value of given numbers " + avg); 
+}
+avg(a); 
+
+    </script>
+</body>
+</html>
